@@ -1,0 +1,19 @@
+# issh changes
+termcapinfo xterm ti@:te@ 
+# detach on hangup
+autodetach on
+# multiusers
+multiuser on
+# no copyright notice during startup
+startup_message off
+caption string "%w"
+# remove some bad bindings
+bind k  #kill
+bind ^k #kill
+bind .  # dump termcap
+bind ^h # hardcopy
+bind h  # hardcopy
+bind A  # title (clashes with vim's increment)
+vbell on
+vbell_msg "Ping"
+vbellwait 1
