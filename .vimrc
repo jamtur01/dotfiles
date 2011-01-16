@@ -1,6 +1,7 @@
 set background=dark
 set showmatch 
 set showmode
+set ttyfast
 set showcmd 
 set ruler
 set title
