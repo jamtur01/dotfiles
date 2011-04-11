@@ -3,6 +3,7 @@
 alias sr='screen -raAd'
 alias irc='/home/james/irc'
 alias vi='vim'
+alias ab='ssh -p 2222 james@absenta.lovedthanlost.net'
 
 eval `keychain --eval --agents ssh id_dsa id_puppet id_pelin id_dsa2 id_rsa`
 
