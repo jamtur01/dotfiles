@@ -1,5 +1,6 @@
 # .bash_profile
 
+alias sudo='sudo '
 alias sr='screen -raAd'
 alias irc='/home/james/irc'
 alias vi='vim'
